@@ -1,0 +1,20 @@
+{
+  "attack_tool": "Stratus Red Team",
+  "attack_chain": [
+    {
+      "technique": "Initial Access",
+      "type": "SSH Brute Force",
+      "duration_minutes": 15
+    },
+    {
+      "technique": "Persistence",
+      "type": "Create Local User",
+      "duration_minutes": 5
+    },
+    {
+      "technique": "Impact",
+      "type": "Cryptomining",
+      "duration_minutes": 30
+    }
+  ]
+}
